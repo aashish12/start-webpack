@@ -5,14 +5,38 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Simple webpack tutorial</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 	<link rel="stylesheet" type="text/css" href="src/css/main.css">
 	<link rel="stylesheet" type="text/css" href="src/css/input-loader.css">
 </head>
 <body>
-	<h1>lets learn some webpack</h1>
-	<button id="secret-button">Show the Secret</button>
-	<p id="secret-paragraph">You cant see me now</p>
+	<div class="container">
+	<div style="margin: 30px">
+		<div class="well"><h4>See some example of webpack in simple html file</h4></div>
+		<button class="btn btn-success" id="secret-button">Click to see the secret</button>
+		<div style="margin: 30px">
+		<div id="secret-paragraph" class="panel panel-default">
+			<div class="panel-heading">
+				<h4>Chamber of Secret<h4>
+			</div>
+			<div class="panel-body">
+				<p>So this is the secrete your want to see.</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+		</div>
+	</div>
 
 	<script src="src/js/dom-loader.js"></script>
 	<script src="src/js/app.js"></script>
